@@ -10,7 +10,7 @@
         <meta property="og:title" content="Stories By Alexandro Alvero"/>
         <meta property="og:type" content="website"/>
         <meta property="og:description" content="Stories By Alexandro Alvero is a website with stories by me"/>
-        <meta property="og:image" content="https://storiesmadebyaa.carrd.co/assets/images/card.jpg?v=9c106b84"/>
+        <meta property="og:image" content="https://storiesmadebyaa.carrd.co/assets/images/card.jpg?v=ffdbfd48"/>
         <meta property="og:image:type" content="image/jpeg"/>
         <meta property="og:image:width" content="1280"/>
         <meta property="og:image:height" content="800"/>
@@ -98,7 +98,7 @@
                 transform: scale(1);
                 width: 100vw;
                 z-index: 0;
-                background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cpath%20d%3D%22M0%2C128h512%20M0%2C384h512%20M192%2C128V0%20M192%2C384v128%20M448%2C128v256%22%20vector-effect%3D%22non-scaling-stroke%22%20fill%3D%22none%22%20stroke%3D%22rgba(0,0,0,0.502)%22%20stroke-width%3D%223.01px%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(45deg, #F70000 50%, #0038FF 65%);
+                background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20preserveAspectRatio%3D%22none%22%3E%20%3Cpath%20d%3D%22M0%2C128h512%20M0%2C384h512%20M192%2C128V0%20M192%2C384v128%20M448%2C128v256%22%20vector-effect%3D%22non-scaling-stroke%22%20fill%3D%22none%22%20stroke%3D%22rgba(0,0,0,0.502)%22%20stroke-width%3D%223.01px%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(45deg, #D60040 50%, #38BDF8 65%);
                 background-size: 256px, auto;
                 background-position: center, 0% 0%;
                 background-repeat: repeat, repeat;
@@ -403,26 +403,6 @@
                 margin-top: 1rem;
             }
 
-            #text05 {
-                color: #000000;
-                font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-                font-size: 2em;
-                line-height: 1.5;
-                font-weight: 700;
-            }
-
-            #text05 a {
-                text-decoration: underline;
-            }
-
-            #text05 a:hover {
-                text-decoration: none;
-            }
-
-            #text05 span.p:nth-child(n + 2) {
-                margin-top: 1rem;
-            }
-
             #text02 {
                 color: #000000;
                 font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
@@ -480,6 +460,26 @@
             }
 
             #text08 span.p:nth-child(n + 2) {
+                margin-top: 1rem;
+            }
+
+            #text04 {
+                color: #000000;
+                font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+                font-size: 1.5em;
+                line-height: 1.5;
+                font-weight: 700;
+            }
+
+            #text04 a {
+                text-decoration: underline;
+            }
+
+            #text04 a:hover {
+                text-decoration: none;
+            }
+
+            #text04 span.p:nth-child(n + 2) {
                 margin-top: 1rem;
             }
 
@@ -999,6 +999,7 @@
 
             .icons li a svg {
                 display: block;
+                pointer-events: none;
                 position: relative;
             }
 
@@ -1015,31 +1016,6 @@
 
             .icons li a .label {
                 display: none;
-            }
-
-            #icons01 {
-                font-size: 5.75em;
-                gap: 0.75rem;
-            }
-
-            #icons01 li a {
-                height: 1em;
-                width: 1em;
-                transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-            }
-
-            #icons01 li a svg {
-                height: 100%;
-                width: 100%;
-                transition: fill 0.25s ease;
-            }
-
-            #icons01 a svg {
-                fill: #00C2FF;
-            }
-
-            #icons01 li a + svg {
-                transition: fill 0.25s ease, stroke 0.25s ease;
             }
 
             #icons02 {
@@ -1065,6 +1041,10 @@
 
             #icons02 li a + svg {
                 transition: fill 0.25s ease, stroke 0.25s ease;
+            }
+
+            #footer {
+                margin-top: 0.75rem !important;
             }
 
             .image {
@@ -1105,15 +1085,6 @@
                 border-bottom-right-radius: inherit;
             }
 
-            #image01 .frame {
-                width: 15rem;
-                transition: none;
-            }
-
-            #image01 .frame img {
-                transition: none;
-            }
-
             #image02 .frame {
                 width: 15rem;
                 transition: none;
@@ -1121,87 +1092,6 @@
 
             #image02 .frame img {
                 transition: none;
-            }
-
-            .video {
-                position: relative;
-            }
-
-            .video video {
-                display: inline-block;
-                max-width: 100%;
-                vertical-align: top;
-            }
-
-            .video .frame {
-                display: inline-block;
-                max-width: 100%;
-                overflow: hidden;
-                position: relative;
-                vertical-align: top;
-            }
-
-            .video .frame:before {
-                content: '';
-                display: block;
-                width: 100%;
-            }
-
-            .video .frame iframe {
-                bottom: 0px;
-                height: 100%;
-                left: 0px;
-                position: absolute;
-                right: 0px;
-                top: 0px;
-                width: 100%;
-                background-color: #000000;
-            }
-
-            .video.full video {
-                display: block;
-            }
-
-            .video.full:first-child video {
-                border-top-left-radius: inherit;
-                border-top-right-radius: inherit;
-            }
-
-            .video.full:last-child video {
-                border-bottom-left-radius: inherit;
-                border-bottom-right-radius: inherit;
-            }
-
-            .video.full .frame {
-                display: block;
-            }
-
-            .video.full:first-child .frame {
-                border-top-left-radius: inherit;
-                border-top-right-radius: inherit;
-            }
-
-            .video.full:last-child .frame {
-                border-bottom-left-radius: inherit;
-                border-bottom-right-radius: inherit;
-            }
-
-            #video02 video {
-                border-radius: 0rem;
-                width: 20rem;
-            }
-
-            #video02 .frame {
-                border-radius: 0rem;
-                width: 20rem;
-            }
-
-            #video02 .frame:before {
-                padding-top: 56.25%;
-            }
-
-            #footer {
-                margin-top: 0.75rem !important;
             }
 
             .icc-credits {
@@ -1347,13 +1237,6 @@
                     line-height: 1.5;
                 }
 
-                #text05 {
-                    letter-spacing: 0rem;
-                    width: 100%;
-                    font-size: 2em;
-                    line-height: 1.5;
-                }
-
                 #text02 {
                     letter-spacing: 0rem;
                     width: 100%;
@@ -1372,6 +1255,13 @@
                     letter-spacing: 0rem;
                     width: 100%;
                     font-size: 2em;
+                    line-height: 1.5;
+                }
+
+                #text04 {
+                    letter-spacing: 0rem;
+                    width: 100%;
+                    font-size: 1.5em;
                     line-height: 1.5;
                 }
 
@@ -1529,34 +1419,17 @@
                     font-size: 2em;
                 }
 
-                #icons01 {
-                    font-size: 5.75em;
-                    gap: 0.75rem;
-                }
-
                 #icons02 {
                     font-size: 5.75em;
                     gap: 0.75rem;
                 }
 
-                #image01 .frame {
-                    width: 15rem;
+                #footer {
+                    margin-top: 0.5625rem !important;
                 }
 
                 #image02 .frame {
                     width: 15rem;
-                }
-
-                #video02 video {
-                    width: 20rem;
-                }
-
-                #video02 .frame {
-                    width: 20rem;
-                }
-
-                #footer {
-                    margin-top: 0.5625rem !important;
                 }
             }
 
@@ -1735,10 +1608,6 @@
                     font-size: 1.5em;
                 }
 
-                #text05 {
-                    font-size: 1.5em;
-                }
-
                 #text02 {
                     font-size: 1.5em;
                 }
@@ -1748,6 +1617,10 @@
                 }
 
                 #text08 {
+                    font-size: 1.5em;
+                }
+
+                #text04 {
                     font-size: 1.5em;
                 }
 
@@ -1823,10 +1696,6 @@
                     gap: 0.5625rem;
                 }
 
-                #icons01 {
-                    gap: 0.5625rem;
-                }
-
                 #icons02 {
                     gap: 0.5625rem;
                 }
@@ -1835,9 +1704,6 @@
     </head>
     <body>
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" display="none" width="0" height="0">
-            <symbol id="icon-c3c8e1063e3b7f84f6b54712741de139" viewBox="0 0 40 40">
-                <path d="M37.3,15.3v15.3c0,0.8-0.3,1.6-0.9,2.2c-0.6,0.6-1.4,0.9-2.2,0.9H5.8c-0.8,0-1.6-0.3-2.2-0.9s-0.9-1.4-0.9-2.2V15.3 c0.5,0.6,1.2,1.1,2,1.7c4.7,3.1,7.9,5.4,9.6,6.7c0.7,0.5,1.4,0.9,1.8,1.2c0.4,0.3,1,0.6,1.9,0.9c0.7,0.3,1.5,0.5,2.1,0.5l0,0 c0.6,0,1.4-0.2,2.1-0.5c0.7-0.3,1.4-0.6,1.9-0.9c0.4-0.3,1-0.7,1.8-1.2c2.2-1.6,5.4-3.8,9.6-6.7C36.1,16.5,36.7,15.9,37.3,15.3 L37.3,15.3z M37.3,9.6c0,1-0.3,2-0.9,2.9c-0.6,0.9-1.5,1.8-2.4,2.4c-4.9,3.3-7.9,5.4-9,6.2c-0.1,0.1-0.4,0.3-0.8,0.6 c-0.4,0.3-0.7,0.5-1,0.7c-0.3,0.2-0.6,0.4-1,0.6c-0.4,0.2-0.7,0.4-1.1,0.5c-0.4,0.1-0.6,0.2-0.9,0.2l0,0c-0.3,0-0.6-0.1-0.9-0.2 c-0.3-0.1-0.7-0.3-1.1-0.5c-0.4-0.2-0.7-0.4-1-0.6c-0.3-0.2-0.6-0.4-1-0.7c-0.4-0.3-0.7-0.5-0.8-0.6c-1.1-0.8-2.8-2-5.1-3.5 c-2.3-1.6-3.3-2.4-3.7-2.7c-0.8-0.5-1.6-1.2-2.3-2.2s-1-1.9-1-2.6c0-1,0.3-1.9,0.8-2.5c0.5-0.6,1.2-1,2.3-1h28.4 c0.8,0,1.6,0.3,2.2,0.9C37.1,8.1,37.3,8.8,37.3,9.6L37.3,9.6z"/>
-            </symbol>
             <symbol id="icon-3b7eeeccbb457780f277fce4669f67a0" viewBox="0 0 40 40">
                 <path d="M33.2,8.3c-2.5-1.1-5.1-1.9-7.9-2.4c-0.3,0.6-0.7,1.4-1,2c-2.9-0.4-5.8-0.4-8.7,0c-0.3-0.6-0.7-1.4-1-2 c-2.8,0.5-5.4,1.3-7.9,2.4c-5,7.2-6.3,14.2-5.6,21.1c3.3,2.3,6.5,3.8,9.6,4.7c0.8-1,1.5-2.1,2.1-3.3c-1.1-0.4-2.2-0.9-3.2-1.5 c0.3-0.2,0.5-0.4,0.8-0.6c6.3,2.8,13,2.8,19.2,0c0.3,0.2,0.5,0.4,0.8,0.6c-1,0.6-2.1,1.1-3.2,1.5c0.6,1.1,1.3,2.2,2.1,3.3 c3.1-0.9,6.3-2.4,9.6-4.7C39.7,21.4,37.5,14.4,33.2,8.3z M13.7,25.1c-1.9,0-3.4-1.7-3.4-3.7s1.5-3.7,3.4-3.7c1.9,0,3.5,1.7,3.4,3.7 C17.1,23.4,15.6,25.1,13.7,25.1z M26.3,25.1c-1.9,0-3.4-1.7-3.4-3.7s1.5-3.7,3.4-3.7c1.9,0,3.5,1.7,3.4,3.7 C29.7,23.4,28.2,25.1,26.3,25.1z"/>
             </symbol>
@@ -1848,7 +1714,7 @@
                     <section id="home-section">
                         <h1 id="text01">
                             <span class="p">
-                                Stories By aa<br/>Hi i am aa and i like to create stories i also like to play roblox BTW my name is not aa:D
+                                Stories By AA<br/>Hi i am aa and i like to create stories i also like to play roblox BTW my name is not AA :D
                             </span>
                         </h1>
                         <ul id="buttons01" class="buttons">
@@ -1864,17 +1730,6 @@
                         <ul id="buttons14" class="buttons">
                             <li>
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSc24BnocknIdyRAXH1yu5YOWo7uQGTFvH8l6-hAVNoij8JZWw/viewform?usp=dialog" class="button n01" role="button">Input Story Code</a>
-                            </li>
-                        </ul>
-                        <ul id="icons01" class="icons">
-                            <li>
-                                <a class="n01" href="https://youtu.be/K3JOZZ-GdMc?si=cupmHeuvZlJDIYU4" role="button">
-                                    <svg aria-labelledby="icons01-icon-1-title">
-                                        <title id="icons01-icon-1-title">Email</title>
-                                        <use xlink:href="#icon-c3c8e1063e3b7f84f6b54712741de139"></use>
-                                    </svg>
-                                    <span class="label">Email</span>
-                                </a>
                             </li>
                         </ul>
                         <ul id="icons02" class="icons">
@@ -1893,16 +1748,6 @@
                                 <a href="#section1" class="button n01" role="button">Bio</a>
                             </li>
                         </ul>
-                        <div id="image01" class="image">
-                            <a href="https://app.nearpod.com/?pin=5aevh" class="frame">
-                                <img src="assets/images/image01.jpg?v=9c106b84" alt=""/>
-                            </a>
-                        </div>
-                        <h2 id="text05">
-                            <span class="p">
-                                Press At the image to apply<br/>(20 people max)
-                            </span>
-                        </h2>
                         <h2 id="text02">My Stories</h2>
                         <ul id="buttons02" class="buttons">
                             <li>
@@ -1946,11 +1791,7 @@
                             </li>
                         </ul>
                         <h1 id="text08">Videos</h1>
-                        <div id="video02" class="video">
-                            <div class="frame">
-                                <iframe data-src="" src="https://drive.google.com/file/d/1YBZVMDIDQVCgDGDmQTGgpcnS-T3tSZXz/preview" title="POV: Hackers" allowfullscreen="1"></iframe>
-                            </div>
-                        </div>
+                        <p id="text04">(Content Deleted)</p>
                         <h2 id="text09">Songs</h2>
                         <ul id="buttons12" class="buttons">
                             <li>
@@ -2059,7 +1900,7 @@
                         <h2 id="text06">School Is bad and school is good Poems</h2>
                         <div id="image02" class="image">
                             <a href="https://app.nearpod.com/?pin=5aevh" class="frame deferred">
-                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAzNTEgMzQ2IiB3aWR0aD0iMzUxIiBoZWlnaHQ9IjM0NiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNGM0MSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/image02.jpg?v=9c106b84" alt=""/>
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjAiIHk9IjAiIHZpZXdCb3g9IjAgMCAzNTEgMzQ2IiB3aWR0aD0iMzUxIiBoZWlnaHQ9IjM0NiIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI%2BPHJlY3QgZmlsbD0iIzQxNGM0MSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIvPjwvc3ZnPg%3D%3D" data-src="assets/images/image02.jpg?v=ffdbfd48" alt=""/>
                             </a>
                         </div>
                         <p id="text07">
@@ -2171,6 +2012,7 @@
                     </section>
                     <section id="section02-section"></section>
                     <footer id="footer">
+                        <div id="credits" class="icc-credits">
                         </div>
                     </footer>
                 </div>
